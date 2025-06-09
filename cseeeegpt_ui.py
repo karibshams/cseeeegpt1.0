@@ -138,7 +138,7 @@ def main():
     
     # Add logo at the top (with error handling) "K:\eeegpt1.0-main\images\cse.jpg"
     try:
-        with open("images\cse.jpg", "rb") as logo_file:
+        with open("images/cse.jpg", "rb") as logo_file:
             logo_b64 = base64.b64encode(logo_file.read()).decode()
         st.markdown(
             f"""
