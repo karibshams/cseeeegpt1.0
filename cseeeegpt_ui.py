@@ -9,10 +9,11 @@ from typing import Any, List, Mapping, Optional
 import base64
 import os
 #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
+#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
 # Configuration
 HUGGINGFACE_REPO_ID = "google/flan-t5-base"
 # IMPORTANT: Replace this with your actual valid Groq API key
-GROQ_API_KEY = "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"  # Replace with your real API key
+GROQ_API_KEY = "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"  
 DB_FAISS_PATH = "vectorstore/db_faiss"
 
 @st.cache_resource
